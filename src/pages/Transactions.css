@@ -1,0 +1,9 @@
+
+.tx-header { display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:16px; margin-bottom:4px; padding-bottom:20px; border-bottom:1px solid var(--border); }
+.tx-header h1 { font-family:'Space Grotesk',sans-serif; font-size:26px; font-weight:800; letter-spacing:-0.04em; }
+.tx-header p  { color:var(--t2); font-size:14px; margin-top:5px; }
+.tx-count { font-size:12px; font-weight:700; background:var(--gold-soft); color:var(--gold); border:1px solid var(--gold-border); padding:4px 12px; border-radius:20px; }
+.tx-filter-bar { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--r-lg); padding:18px 20px; display:flex; flex-direction:column; gap:14px; }
+.tx-list { display:flex; flex-direction:column; gap:6px; }
+.tx-empty { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--r-lg); text-align:center; padding:72px 24px; color:var(--t3); }
+.tx-empty h3 { font-size:18px; font-weight:700; color:var(--t2); margin:10px 0 6px; }

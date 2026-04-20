@@ -1,0 +1,11 @@
+
+.atx-wrap { max-width:640px; margin:0 auto; }
+.atx-back { display:inline-flex; align-items:center; gap:6px; font-size:13px; font-weight:600; color:var(--t3); background:none; border:none; cursor:pointer; padding:0; margin-bottom:24px; transition:color .2s; font-family:'DM Sans',sans-serif; }
+.atx-back:hover { color:var(--t1); }
+.atx-head { margin-bottom:28px; }
+.atx-head h1 { font-family:'Space Grotesk',sans-serif; font-size:28px; font-weight:800; letter-spacing:-0.04em; }
+.atx-head p  { color:var(--t2); font-size:14px; margin-top:6px; }
+.atx-card { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--r-xl); padding:32px; }
+.atx-grid2 { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+@media (max-width:540px) { .atx-grid2 { grid-template-columns:1fr; } .atx-card { padding:20px 16px; } }
+.atx-actions { display:flex; justify-content:flex-end; gap:12px; margin-top:28px; padding-top:24px; border-top:1px solid var(--border); }
